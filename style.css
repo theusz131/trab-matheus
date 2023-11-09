@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34;
+    color: #61dafb;
+    font-family: 'Arial', sans-serif;
+}
+
+.relogio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+span {
+    font-size: 2em;
+}
+
+.tempo {
+    font-size: 1em;
+    margin-top: 5px;
+    color: #555;
+}
+
+#horas, #minutos, #segundos {
+    background-color: #61dafb;
+    color: #fff;
+    padding: 5px 5px;
+    border-radius: 2px;
+}
